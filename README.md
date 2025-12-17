@@ -16,7 +16,7 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-### Country Information List Page
+## Country Information List Page
 
 This single-page ReactJS application includes a list page that displays a set of countries based on the search keyword, along with basic information and attributes for the selected result.
 
