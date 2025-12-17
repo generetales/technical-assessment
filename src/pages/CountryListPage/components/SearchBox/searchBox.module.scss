@@ -1,0 +1,14 @@
+.wrapper {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+
+  .inputBox {
+    padding: 8px;
+    width: 250px;
+  }
+
+  .button {
+    height: 35px;
+  }
+}

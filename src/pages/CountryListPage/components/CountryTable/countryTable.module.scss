@@ -1,0 +1,55 @@
+.countryTable {
+  display: flex;
+  flex-flow: column nowrap; /* Stacks rows vertically */
+  margin-top: 16px;
+  width: 100%;
+
+  .row {
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+  }
+
+  .cell {
+    align-content: center;
+    border: 1px solid #ccc;
+    flex: 1; /* Ensures equal spacing among cells in a row */
+    padding: 10px;
+    min-width: 100px;
+  }
+
+  .view {
+    color: #0033ff;
+
+    &:hover {
+      cursor: pointer;
+      text-decoration: underline;
+    }
+  }
+
+  .header {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+
+  .skeleton {
+    height: 44px;
+    animation: pulse-bg 1.5s infinite alternate; /* 1.5s duration, infinite loop, alternates direction */
+  }
+
+  .pagination {
+    margin: 16px auto;
+  }
+}
+
+@keyframes pulse-bg {
+  0% {
+    background-color: #f0f0f0; /* Start color (light gray) */
+  }
+  50% {
+    background-color: #e0e0e0; /* Middle color (slightly darker) */
+  }
+  100% {
+    background-color: #f0f0f0; /* End color (back to start) */
+  }
+}

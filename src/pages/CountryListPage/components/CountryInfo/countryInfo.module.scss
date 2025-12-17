@@ -1,0 +1,23 @@
+.wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  margin-top: 16px;
+  row-gap: 10px;
+  text-align: left;
+
+  .info {
+    display: flex;
+    text-transform: capitalize;
+
+    label {
+      align-content: center;
+      font-weight: bold;
+      margin-right: 5px;
+      min-width: 130px;
+    }
+
+    .image {
+      width: 50px;
+    }
+  }
+}
