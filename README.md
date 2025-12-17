@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# technical-assessment
-This single-page ReactJS application was created as part of a technical assessment for a Frontend Software Developer position to join the development team at Superloop.
-=======
 # Country Information List Page (Technical Assesstment)
 
 This single-page ReactJS application was created as part of a technical assessment for a Frontend Software Developer position to join the development team at Superloop.
@@ -24,4 +20,3 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
->>>>>>> 6328fd0 (Technical Assessment)
